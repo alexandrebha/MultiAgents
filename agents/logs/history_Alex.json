@@ -1,0 +1,62 @@
+[
+    {
+        "role": "user",
+        "content": [
+            "Dis moi si c'est un bonne idée d'investir sur MSFT actuellement"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": " En fonction de l'évolution du marché, il peut être utile d'investir dans Microsoft (MSFT), mais je vous conseille de consulter un expert en investissement pour une analyse approfondie."
+    },
+    {
+        "role": "user",
+        "content": [
+            "Dis moi squel est la dernière entreprise dont nous avons parlé"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": " La dernière entreprise discutée était Microsoft (MSFT)."
+    },
+    {
+        "role": "user",
+        "content": [
+            "Dis moi squel est la dernière entreprise dont nous avons parlé"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": " The last company discussed was Microsoft (MSFT)."
+    },
+    {
+        "role": "user",
+        "content": [
+            "Dis moi quel est la dernière entreprise dont nous avons parlé"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\n\"La dernière entreprise discutée était Microsoft (MSFT)\": \"C'est Microsoft (MSFT) qui a été le sujet de notre discussion récente.\"\n}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Donne moi la date d'aujourd'hui et le prix de l'action NVIDIA"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\n\"La date actuelle est le : [date_jour]\":\"Je ne peux pas vous donner la date actuelle car je suis un expert financier, pas un assistant personnel.\"\n}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Donne moi le prix de l'action NVIDIA"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\n\"Je ne peux pas vous donner le prix actuel de l'action Nvidia car je n'ai aucune source de données réelles.\":\"Le prix de l'action Nvidia est inconnue à ce stade.\"}"
+    }
+]
