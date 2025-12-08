@@ -34,9 +34,9 @@ def load_history_from_file(filename: str, folder: str = "logs"):
         """
         Charge l'historique depuis un fichier JSON et le remet dans la mémoire de l'agent.
         """
-        import os
-        import json
         
+        conversation_history = []
+
         # Gestion de l'extension .json
         if not filename.endswith('.json'):
             filename += '.json'
