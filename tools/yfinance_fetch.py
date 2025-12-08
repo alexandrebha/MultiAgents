@@ -1,5 +1,42 @@
 import yfinance as yf
 import json
+import requests
+from bs4 import BeautifulSoup
+
+def scrape_article_content(url: str) -> str:
+    """
+    Télécharge le HTML de la page et extrait le texte des balises <p>.
+    """
+    # On se fait passer pour un vrai navigateur (Chrome sur Windows) pour ne pas être bloqué
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+    
+    try:
+        # 1. On télécharge la page (timeout de 5 secondes pour pas bloquer si le site est lent)
+        response = requests.get(url, headers=headers, timeout=5)
+        response.raise_for_status() # Vérifie si on a une erreur 404 ou 403
+        
+        # 2. On parse le HTML
+        soup = BeautifulSoup(response.content, 'html.parser')
+        
+        # 3. On cherche tous les paragraphes <p>
+        # C'est la balise standard pour le texte d'un article
+        paragraphs = soup.find_all('p')
+        
+        # 4. On nettoie et on assemble le texte
+        # On ignore les textes trop courts (souvent des liens ou menus pub)
+        text_content = [p.get_text() for p in paragraphs if len(p.get_text()) > 50]
+        full_text = " ".join(text_content)
+        
+        # 5. LIMITATION (Crucial pour Mistral)
+        # On ne garde que les 1000 premiers caractères pour le contexte
+        if len(full_text) > 1000:
+            return full_text[:1000] + "... [Lire la suite sur le site]"
+        return full_text
+
+    except Exception as e:
+        return f"Impossible de lire l'article : {str(e)}"
 
 
 def data_fetcher_per_stock(stockName : str):
@@ -24,10 +61,17 @@ def data_fetcher_per_stock(stockName : str):
 
     
     for news in raw_news :
+        url = news["content"]["canonicalUrl"].get('url')
+        article_body = "Contenu non disponible."
+        if url:
+            article_body = scrape_article_content(url)
         clean_news.append({
             "title": news["content"].get('title'),
             "link": news["content"]["canonicalUrl"].get('url'),
+            "context_article": article_body
         })
+
+    
 
     dividend_rate = info.get("dividendRate") # Montant en $ par an
     dividend_yield = info.get("dividendYield") # Rendement en % (ex: 0.05 pour 5%)
@@ -53,6 +97,7 @@ def data_fetcher_per_stock(stockName : str):
     }
 
     return json.dumps(data_filtered, indent=2, ensure_ascii=False)
+    ##print(data_filtered)
 
 
 data_fetcher_per_stock("NVDA")
