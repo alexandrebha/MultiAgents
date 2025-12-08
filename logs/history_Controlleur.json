@@ -1,0 +1,52 @@
+[
+    {
+        "role": "user",
+        "content": [
+            "Voici la demande : Est ce que MSFT est un bon investissement"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"MSFT (Microsoft) est une entreprise connue et stable, offrant des perspectives d'investissements intéressantes dans le secteur de l'informatique et de la technologie.\"}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Voici la demande : Parle moi de l'investissement dans NVIDIA"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"NVIDIA est une entreprise connue dans le secteur des technologies de l'information et des communications (TIC), offrant des solutions pour le traitement de l'intelligence artificielle, les jeux vidéo et la cryptomonnaie. L'investissement dans NVIDIA peut être considéré comme une option potentielle en matière d'investissement sur la bourse.\"}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Voici la demande : Comment je peux faire des lasagnes ?"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"NON\", \"raison\": \"Cette question ne concerne pas l'analyse financière, la bourse ou les entreprises.\"}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Voici la demande : Quel est l'action la plus cher sur le marché financier"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"L'action la plus chère sur le marché financier peut varier en fonction de la date et de l'entreprise considérée. Pour avoir des informations précises, il est recommandé de consulter un site d'information financière ou une plateforme d'investissement.\"}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Voici la demande : Quel est la dernière question que je t'ai posé"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La dernière question concerne l'analyse financière, plus précisément l'investissement sur le marché financier.\"}"
+    }
+]

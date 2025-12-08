@@ -2,7 +2,7 @@ from langchain_ollama import ChatOllama
 from langchain.messages import HumanMessage
 from langchain_core.messages import SystemMessage
 from langchain.messages import AIMessage
-from utils import *
+from agents.utils import *
 
 import yfinance as yf
 
@@ -42,6 +42,3 @@ class Agent:
 
         return response.content
     
-agent1 = Agent("Alex", "un expert financier", "mistral")
-response = agent1.callLlm("Répond en une seule phrase en Français", "Donne moi le prix de l'action NVIDIA")
-print(response)
