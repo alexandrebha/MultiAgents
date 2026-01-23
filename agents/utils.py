@@ -54,3 +54,23 @@ def load_history_from_file(filename: str, folder: str = "logs"):
             print(f"Fichier {filename} introuvable dans {folder}. On part de zéro.")
         
         return conversation_history
+
+def save_to_file(content: str, filename: str, folder: str = "data") -> str:
+    """
+    Sauvegarde du texte dans un fichier.
+    Crée le dossier s'il n'existe pas.
+    """
+    try:
+        # On crée le dossier (ex: 'data') s'il n'existe pas
+        if not os.path.exists(folder):
+            os.makedirs(folder)
+            
+        file_path = os.path.join(folder, filename)
+        
+        # mode='w' : On ECRASE l'ancien fichier (on veut les données fraîches de la recherche actuelle)
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+            
+        return f"✅ Sauvegardé dans {file_path}"
+    except Exception as e:
+        return f"❌ Erreur sauvegarde : {e}"
