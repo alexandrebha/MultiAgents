@@ -48,5 +48,75 @@
     {
         "role": "assistant",
         "content": "{\"decision\": \"OUI\", \"raison\": \"La dernière question concerne l'analyse financière, plus précisément l'investissement sur le marché financier.\"}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Voici la demande : Comment fais ton des pêtes"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"NON\", \"raison\": \"Cette question ne concerne pas l'analyse financière, la bourse ou les entreprises.\"}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Voici la demande : Est ce que tu me conseille d'investir dans MSFT"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"MSFT (Microsoft) est une entreprise connue et stable, offrant des perspectives d'investissements intéressantes dans le secteur de l'informatique et de la technologie.\"}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Voici la demande : Faut il investir sur MSFT"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"MSFT (Microsoft) est une entreprise connue et stable, offrant des perspectives d'investissements intéressantes dans le secteur de l'informatique et de la technologie.\"}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Voici la demande : faut il investir sur NVIDIA"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"NVIDIA est une entreprise connue dans le secteur des technologies de l'information et des communications (TIC), offrant des solutions pour le traitement de l'intelligence artificielle, les jeux vidéo et la cryptomonnaie. L'investissement dans NVIDIA peut être considéré comme une option potentielle en matière d'investissement sur la bourse.\"}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Voici la demande : faut il investir sur NVIDIA"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"NVIDIA est une entreprise connue dans le secteur des technologies de l'information et des communications (TIC), offrant des solutions pour le traitement de l'intelligence artificielle, les jeux vidéo et la cryptomonnaie. L'investissement dans NVIDIA peut être considéré comme une option potentielle en matière d'investissement sur la bourse.\"}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Voici la demande : Faut il investir sur NVIDIA"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"NVIDIA est une entreprise connue dans le secteur des technologies de l'information et des communications (TIC), offrant des solutions pour le traitement de l'intelligence artificielle, les jeux vidéo et la cryptomonnaie. L'investissement dans NVIDIA peut être considéré comme une option potentielle en matière d'investissement sur la bourse.\"}"
+    },
+    {
+        "role": "user",
+        "content": [
+            "Voici la demande : Est ce que l'économie boursière se porte bien du cote de Microsoft"
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Microsoft est une entreprise connue et stable, offrant des perspectives d'investissements intéressantes dans le secteur de l'informatique et de la technologie.\"}"
     }
 ]
