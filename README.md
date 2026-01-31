@@ -437,9 +437,9 @@ MultiAgents/
     ├── corrections.txt            # Feedback Critique
     └── metriques.txt              # Métriques d'exécution
 ```
-## COntraintes Effectuées
 
 L'image ContrainteEffectué.png montre les différents points que nous avons validés pour ce projet elle se trouve à la racine du projet dans le GitHub
+
 ---
 
 
@@ -459,6 +459,7 @@ L'image ContrainteEffectué.png montre les différents points que nous avons val
   https://www.youtube.com/watch?v=avi9Pp75ps0
 - Vidéo Démo : 
   https://youtu.be/R1Fsayh--yI
+
 
 
 
