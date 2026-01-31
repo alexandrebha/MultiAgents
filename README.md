@@ -503,3 +503,11 @@ ollama pull mistral-nemo
 - [ ] Intégration d'autres sources de données (Bloomberg, Alpha Vantage)
 - [ ] Backtesting automatique des recommandations
 - [ ] Support multilingue complet
+
+
+### Lien Vidéos
+
+- Vidéo Présentation du WorkFlow : 
+  https://www.youtube.com/watch?v=avi9Pp75ps0
+- Vidéo Démo : 
+  https://youtu.be/R1Fsayh--yI
