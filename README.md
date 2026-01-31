@@ -440,17 +440,6 @@ MultiAgents/
 
 ---
 
-## Auteurs
-
-Projet académique ING3 - NLP
-
----
-
-## Licence
-
-Ce projet est à usage éducatif uniquement.
-
----
 
 ## Notes techniques
 
@@ -497,18 +486,6 @@ ollama pull mistral-nemo
 - Réduire le nombre d'itérations max du Critique (paramètre dans agent6_critique.py)
 - Passer au mode mono-agent pour des résultats rapides
 
----
-
-## Améliorations futures
-
-- [ ] Support de l'analyse multi-actions (portfolios)
-- [ ] Ajout de graphiques de visualisation
-- [ ] Export PDF des rapports
-- [ ] Interface web (Streamlit/Gradio)
-- [ ] Intégration d'autres sources de données (Bloomberg, Alpha Vantage)
-- [ ] Backtesting automatique des recommandations
-- [ ] Support multilingue complet
-
 
 ### Lien Vidéos
 
@@ -516,6 +493,7 @@ ollama pull mistral-nemo
   https://www.youtube.com/watch?v=avi9Pp75ps0
 - Vidéo Démo : 
   https://youtu.be/R1Fsayh--yI
+
 
 
 
