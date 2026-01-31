@@ -517,3 +517,4 @@ ollama pull mistral-nemo
 - Vidéo Démo : 
   https://youtu.be/R1Fsayh--yI
 
+
