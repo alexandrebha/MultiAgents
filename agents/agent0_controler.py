@@ -5,43 +5,54 @@ class ControlerAgent(Agent):
     def __init__(self):
         super().__init__(
             name="Controlleur",
-            description="Tu es un controlleur strict. Tu vas filtrer les questions pour ne laisser passer que les questions liés à la finance, l'économie ou bien l'investissement",
+            description="Filtre les demandes et extrait les tickers boursiers.",
             modelName="mistral"
         )
     
     def run(self, userInput :str) -> dict:
-        instructions = (
-            "Analyse la demande de l'utilisateur. "
-            "Ton objectif est de décider si cette demande concerne l'analyse financière, la bourse ou les entreprises. "
-            "\n"
-            "RÈGLES :"
-            "- Si ça parle d'actions (Apple, Nvidia...), de marché, d'économie : Réponds OUI."
-            "- Si ça parle de code, de recette de cuisine, de météo ou de politesse simple : Réponds NON."
-            "\n"
-            "Tu dois répondre UNIQUEMENT avec ce format JSON exact :"
-            "{\"decision\": \"OUI\", \"raison\": \"explication courte\"}"
-            "ou"
-            "{\"decision\": \"NON\", \"raison\": \"explication courte\"}"
-        )
-        response = self.callLlm(instructions,f"Voici la demande : {userInput}", formatJson=True)
+       
+        instructions = """
+        Ta mission est double :
+        1. VALIDATION : Décide si la demande concerne la finance, l'économie, la bourse ou une entreprise (OUI/NON).
+        2. EXTRACTION : Identifie l'entreprise mentionnée et trouve son TICKER boursier officiel.
 
+        RÈGLES POUR LE TICKER :
+        - Transforme le nom commun en symbole boursier (Ex: "Microsoft" -> "MSFT").
+        - Ça marche même si c'est écrit en minuscule (ex: "apple" -> "AAPL").
+        - Si c'est une entreprise française, essaie d'ajouter le suffixe .PA (ex: "Total" -> "TTE.PA", "LVMH" -> "MC.PA").
+        - Si aucune entreprise n'est citée, mets null.
 
-        # 3. CORRECTION ET PARSING (La partie importante)
+        EXEMPLES DE MAPPING À SUIVRE :
+        - "investir sur microsoft" -> ticker: "MSFT"
+        - "LVMH est-il rentable ?" -> ticker: "MC.PA"
+        - "Analyse de Tesla" -> ticker: "TSLA"
+        - "Cours du bitcoin" -> ticker: "BTC-USD"
+        - "Google" -> ticker: "GOOGL"
+
+        FORMAT JSON OBLIGATOIRE (Réponds uniquement le JSON) :
+        {
+            "decision": "OUI" ou "NON",
+            "raison": "explication courte",
+            "ticker": "SYMBOLE" ou null
+        }
+        """
         
-        # Si c'est déjà un dictionnaire, tout va bien
-        if isinstance(response, dict):
-            return response
-            
-        # Si c'est une string, on doit la nettoyer et la convertir
+     
+        response = self.callLlm(instructions, f"Voici la demande : {userInput}", formatJson=True)
+
+      
         try:
-            # Nettoyage : Parfois le LLM répond ```json ... ```, on enlève ça
-            clean_response = response.replace("```json", "").replace("```", "").strip()
+            if isinstance(response, dict):
+                return response
             
-            # Conversion String -> Dictionnaire
+        
+            clean_response = response.replace("```json", "").replace("```", "").strip()
             return json.loads(clean_response)
             
         except json.JSONDecodeError:
-            # Si le LLM a vraiment mal répondu et que ce n'est pas du JSON
-            print(f"⚠️ Erreur de parsing JSON. Réponse reçue : {response}")
-            # On renvoie un dictionnaire de sécurité pour ne pas faire planter le main
-            return {"decision": "NON", "raison": "Erreur technique du modèle (JSON invalide)"}
+          
+            return {
+                "decision": "NON", 
+                "raison": "Erreur technique JSON", 
+                "ticker": None
+            }

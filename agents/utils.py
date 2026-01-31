@@ -13,14 +13,13 @@ def save_history_to_file(history: list, filename: str, folder: str = "logs") -> 
         if not os.path.exists(folder):
             os.makedirs(folder)
 
-        # On s'assure que le fichier a bien l'extension .json
+    
         if not filename.endswith('.json'):
             filename += '.json'
             
         file_path = os.path.join(folder, filename)
 
-        # indent=4 permet de créer un fichier "joli" et lisible (pas tout sur une ligne)
-        # ensure_ascii=False permet de garder les accents (é, à, etc.) lisibles
+
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(history, f, indent=4, ensure_ascii=False)
 
@@ -37,7 +36,7 @@ def load_history_from_file(filename: str, folder: str = "logs"):
         
         conversation_history = []
 
-        # Gestion de l'extension .json
+   
         if not filename.endswith('.json'):
             filename += '.json'
             
@@ -61,16 +60,16 @@ def save_to_file(content: str, filename: str, folder: str = "data") -> str:
     Crée le dossier s'il n'existe pas.
     """
     try:
-        # On crée le dossier (ex: 'data') s'il n'existe pas
+  
         if not os.path.exists(folder):
             os.makedirs(folder)
             
         file_path = os.path.join(folder, filename)
         
-        # mode='w' : On ECRASE l'ancien fichier (on veut les données fraîches de la recherche actuelle)
+      
         with open(file_path, 'w', encoding='utf-8') as f:
             f.write(content)
             
-        return f"✅ Sauvegardé dans {file_path}"
+        return f" Sauvegardé dans {file_path}"
     except Exception as e:
-        return f"❌ Erreur sauvegarde : {e}"
+        return f" Erreur sauvegarde : {e}"

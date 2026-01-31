@@ -1,0 +1,51 @@
+{
+  "summary": {
+    "session_id": "20260131_152113",
+    "question": "faut-il investir sur apple?",
+    "ticker": "AAPL",
+    "workflow": "",
+    "total_execution_time": 22.14,
+    "sequential_time_sum": 18.4,
+    "parallel_time_saved": 0,
+    "total_llm_calls": 2,
+    "total_tokens_input": 7,
+    "total_tokens_output": 1578,
+    "agents_count": 2,
+    "success_rate": 100.0,
+    "parallel_executions": []
+  },
+  "agents": {
+    "Controler": {
+      "agent_name": "Controler",
+      "execution_time": 1.97,
+      "llm_calls": 1,
+      "tokens_input_estimate": 6,
+      "tokens_output_estimate": 53,
+      "success": true,
+      "error_message": "",
+      "quality_score": null,
+      "iterations": 1,
+      "context_size": 27,
+      "output_size": 215,
+      "custom_metrics": {
+        "decision": "OUI"
+      }
+    },
+    "Chercheur": {
+      "agent_name": "Chercheur",
+      "execution_time": 16.43,
+      "llm_calls": 1,
+      "tokens_input_estimate": 1,
+      "tokens_output_estimate": 1525,
+      "success": true,
+      "error_message": "",
+      "quality_score": null,
+      "iterations": 1,
+      "context_size": 4,
+      "output_size": 6100,
+      "custom_metrics": {
+        "ticker": "AAPL"
+      }
+    }
+  }
+}

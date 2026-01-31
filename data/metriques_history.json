@@ -1,0 +1,359 @@
+[
+  {
+    "timestamp": "2026-01-31 23:01:35",
+    "mode": "multi-agent",
+    "ticker": "NVDA",
+    "question": "Analyses moi la société NVIDIA",
+    "total_execution_time": 67.69,
+    "agents_metrics": [
+      {
+        "name": "Chercheur",
+        "execution_time": 16.04,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Planificateur",
+        "execution_time": 0.18,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Bull",
+        "execution_time": 9.38,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Bear",
+        "execution_time": 5.46,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Score",
+        "execution_time": 16.7,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Redacteur",
+        "execution_time": 14.32,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Critique",
+        "execution_time": 5.61,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Controleur",
+        "execution_time": 4.0,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Controleur",
+        "execution_time": 1.88,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      }
+    ],
+    "critique_iterations": 1,
+    "critique_final_score": 77.3,
+    "validated_first_pass": true,
+    "ticker_extracted": "NVDA",
+    "ticker_validated_by_user": true,
+    "ticker_extraction_correct": true,
+    "voie_choisie": "ANALYSE_COMPLETE",
+    "rapport_genere": true,
+    "nb_arguments_bull": 5,
+    "nb_arguments_bear": 4,
+    "score_final": 7.4,
+    "recommandation": "ACHAT"
+  },
+  {
+    "timestamp": "2026-01-31 23:03:06",
+    "mode": "multi-agent",
+    "ticker": "NVDA",
+    "question": "",
+    "total_execution_time": 28.08,
+    "agents_metrics": [
+      {
+        "name": "Chercheur",
+        "execution_time": 12.89,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Planificateur",
+        "execution_time": 0.17,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Redacteur",
+        "execution_time": 7.36,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Critique",
+        "execution_time": 7.66,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      }
+    ],
+    "critique_iterations": 1,
+    "critique_final_score": 50.2,
+    "validated_first_pass": true,
+    "ticker_extracted": "NVDA",
+    "ticker_validated_by_user": true,
+    "ticker_extraction_correct": true,
+    "voie_choisie": "INFO_SIMPLE",
+    "rapport_genere": true,
+    "nb_arguments_bull": 0,
+    "nb_arguments_bear": 0,
+    "score_final": 0,
+    "recommandation": "INFO_SIMPLE"
+  },
+  {
+    "timestamp": "2026-01-31 23:08:23",
+    "mode": "multi-agent",
+    "ticker": "NVDA",
+    "question": "Analyses moi la société NVIDIA",
+    "total_execution_time": 66.89,
+    "agents_metrics": [
+      {
+        "name": "Chercheur",
+        "execution_time": 14.23,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Planificateur",
+        "execution_time": 0.18,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Bull",
+        "execution_time": 7.6,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Bear",
+        "execution_time": 5.22,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Score",
+        "execution_time": 13.46,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Redacteur",
+        "execution_time": 20.24,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Critique",
+        "execution_time": 5.93,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Controleur",
+        "execution_time": 3.61,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      }
+    ],
+    "critique_iterations": 1,
+    "critique_final_score": 80.7,
+    "validated_first_pass": true,
+    "ticker_extracted": "NVDA",
+    "ticker_validated_by_user": true,
+    "ticker_extraction_correct": true,
+    "voie_choisie": "ANALYSE_COMPLETE",
+    "rapport_genere": true,
+    "nb_arguments_bull": 4,
+    "nb_arguments_bear": 4,
+    "score_final": 6.2,
+    "recommandation": "ACHAT"
+  },
+  {
+    "timestamp": "2026-01-31 23:12:46",
+    "mode": "multi-agent",
+    "ticker": "NVDA",
+    "question": "donnes moi uniquement des informations sur la société NVIDIA",
+    "total_execution_time": 48.21,
+    "agents_metrics": [
+      {
+        "name": "Chercheur",
+        "execution_time": 15.96,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Planificateur",
+        "execution_time": 0.16,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Redacteur",
+        "execution_time": 6.21,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Critique",
+        "execution_time": 25.87,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      }
+    ],
+    "critique_iterations": 3,
+    "critique_final_score": 33.5,
+    "validated_first_pass": false,
+    "ticker_extracted": "NVDA",
+    "ticker_validated_by_user": true,
+    "ticker_extraction_correct": true,
+    "voie_choisie": "INFO_SIMPLE",
+    "rapport_genere": true,
+    "nb_arguments_bull": 0,
+    "nb_arguments_bear": 0,
+    "score_final": 0,
+    "recommandation": "INFO_SIMPLE"
+  },
+  {
+    "timestamp": "2026-01-31 23:15:27",
+    "mode": "multi-agent",
+    "ticker": "NVDA",
+    "question": "donnes moi des informations sur la société NVIDIA",
+    "total_execution_time": 44.42,
+    "agents_metrics": [
+      {
+        "name": "Chercheur",
+        "execution_time": 16.45,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Planificateur",
+        "execution_time": 0.16,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Redacteur",
+        "execution_time": 6.69,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "Critique",
+        "execution_time": 21.12,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      }
+    ],
+    "critique_iterations": 2,
+    "critique_final_score": 54.3,
+    "validated_first_pass": false,
+    "ticker_extracted": "NVDA",
+    "ticker_validated_by_user": true,
+    "ticker_extraction_correct": true,
+    "voie_choisie": "INFO_SIMPLE",
+    "rapport_genere": true,
+    "nb_arguments_bull": 0,
+    "nb_arguments_bear": 0,
+    "score_final": 0,
+    "recommandation": "INFO_SIMPLE"
+  },
+  {
+    "timestamp": "2026-01-31 23:17:49",
+    "mode": "mono-agent",
+    "ticker": "NVDA",
+    "question": "Analyses moi l'entreprise NVIDIA",
+    "total_execution_time": 29.84,
+    "agents_metrics": [
+      {
+        "name": "MonoAgent_Fetch",
+        "execution_time": 4.38,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "MonoAgent_Translate",
+        "execution_time": 9.66,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "MonoAgent_Analyze",
+        "execution_time": 15.8,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      },
+      {
+        "name": "MonoAgent_Report",
+        "execution_time": 0.0,
+        "llm_calls": 0,
+        "success": true,
+        "error_message": null
+      }
+    ],
+    "critique_iterations": 0,
+    "critique_final_score": 0.0,
+    "validated_first_pass": false,
+    "ticker_extracted": "NVDA",
+    "ticker_validated_by_user": true,
+    "ticker_extraction_correct": true,
+    "voie_choisie": "",
+    "rapport_genere": true,
+    "nb_arguments_bull": 4,
+    "nb_arguments_bear": 4,
+    "score_final": 7.5,
+    "recommandation": "ACHAT MODERE"
+  }
+]

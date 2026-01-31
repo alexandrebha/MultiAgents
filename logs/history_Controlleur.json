@@ -1,122 +1,602 @@
 [
     {
         "role": "user",
-        "content": [
-            "Voici la demande : Est ce que MSFT est un bon investissement"
-        ]
+        "content": "Voici la demande : parles moi de apple"
     },
     {
         "role": "assistant",
-        "content": "{\"decision\": \"OUI\", \"raison\": \"MSFT (Microsoft) est une entreprise connue et stable, offrant des perspectives d'investissements intéressantes dans le secteur de l'informatique et de la technologie.\"}"
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur Apple implique l'analyse d'actions et donc est relevant de la finance et des entreprises\"}"
     },
     {
         "role": "user",
-        "content": [
-            "Voici la demande : Parle moi de l'investissement dans NVIDIA"
-        ]
+        "content": "Voici la demande : parles moi de microsoft"
     },
     {
         "role": "assistant",
-        "content": "{\"decision\": \"OUI\", \"raison\": \"NVIDIA est une entreprise connue dans le secteur des technologies de l'information et des communications (TIC), offrant des solutions pour le traitement de l'intelligence artificielle, les jeux vidéo et la cryptomonnaie. L'investissement dans NVIDIA peut être considéré comme une option potentielle en matière d'investissement sur la bourse.\"}"
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Microsoft est une entreprise qui a des actions sur le marché boursier et il y a donc lieu d'en discuter sous l'angle finance et des entreprises\"}"
     },
     {
         "role": "user",
-        "content": [
-            "Voici la demande : Comment je peux faire des lasagnes ?"
-        ]
+        "content": "Voici la demande : parle moi de nvidia"
     },
     {
         "role": "assistant",
-        "content": "{\"decision\": \"NON\", \"raison\": \"Cette question ne concerne pas l'analyse financière, la bourse ou les entreprises.\"}"
+        "content": "{\"decision\": \"OUI\", \"raison\": \"NVIDIA est une entreprise qui a des actions sur le marché boursier et il y a donc lieu d'en discuter sous l'angle finance et des entreprises\"}"
     },
     {
         "role": "user",
-        "content": [
-            "Voici la demande : Quel est l'action la plus cher sur le marché financier"
-        ]
+        "content": "Voici la demande : produis des informations sur apple"
     },
     {
         "role": "assistant",
-        "content": "{\"decision\": \"OUI\", \"raison\": \"L'action la plus chère sur le marché financier peut varier en fonction de la date et de l'entreprise considérée. Pour avoir des informations précises, il est recommandé de consulter un site d'information financière ou une plateforme d'investissement.\"}"
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Apple est une entreprise qui a des actions sur le marché boursier et il y a lieu d'en discuter sous l'angle finance et des entreprises\"}"
     },
     {
         "role": "user",
-        "content": [
-            "Voici la demande : Quel est la dernière question que je t'ai posé"
-        ]
+        "content": "Voici la demande : parles moi de microsoft"
     },
     {
         "role": "assistant",
-        "content": "{\"decision\": \"OUI\", \"raison\": \"La dernière question concerne l'analyse financière, plus précisément l'investissement sur le marché financier.\"}"
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Microsoft est une entreprise qui a des actions sur le marché boursier et il y a donc lieu d'en discuter sous l'angle finance et des entreprises\"}"
     },
     {
         "role": "user",
-        "content": [
-            "Voici la demande : Comment fais ton des pêtes"
-        ]
+        "content": "Voici la demande : parles moi de nvidia"
     },
     {
         "role": "assistant",
-        "content": "{\"decision\": \"NON\", \"raison\": \"Cette question ne concerne pas l'analyse financière, la bourse ou les entreprises.\"}"
+        "content": "{\"decision\": \"OUI\", \"raison\": \"NVIDIA est une entreprise qui a des actions sur le marché boursier et il y a donc lieu d'en discuter sous l'angle finance et des entreprises\"}"
     },
     {
         "role": "user",
-        "content": [
-            "Voici la demande : Est ce que tu me conseille d'investir dans MSFT"
-        ]
+        "content": "Voici la demande : parles moi de apple"
     },
     {
         "role": "assistant",
-        "content": "{\"decision\": \"OUI\", \"raison\": \"MSFT (Microsoft) est une entreprise connue et stable, offrant des perspectives d'investissements intéressantes dans le secteur de l'informatique et de la technologie.\"}"
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur Apple implique l'analyse d'actions et donc est relevant de la finance et des entreprises\"}"
     },
     {
         "role": "user",
-        "content": [
-            "Voici la demande : Faut il investir sur MSFT"
-        ]
+        "content": "Voici la demande : parles moi de microsoft"
     },
     {
         "role": "assistant",
-        "content": "{\"decision\": \"OUI\", \"raison\": \"MSFT (Microsoft) est une entreprise connue et stable, offrant des perspectives d'investissements intéressantes dans le secteur de l'informatique et de la technologie.\"}"
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Microsoft est une entreprise qui a des actions sur le marché boursier et il y a donc lieu d'en discuter sous l'angle finance et des entreprises\"}"
     },
     {
         "role": "user",
-        "content": [
-            "Voici la demande : faut il investir sur NVIDIA"
-        ]
+        "content": "Voici la demande : parles moi de nvidia"
     },
     {
         "role": "assistant",
-        "content": "{\"decision\": \"OUI\", \"raison\": \"NVIDIA est une entreprise connue dans le secteur des technologies de l'information et des communications (TIC), offrant des solutions pour le traitement de l'intelligence artificielle, les jeux vidéo et la cryptomonnaie. L'investissement dans NVIDIA peut être considéré comme une option potentielle en matière d'investissement sur la bourse.\"}"
+        "content": "{\"decision\": \"OUI\", \"raison\": \"NVIDIA est une entreprise qui a des actions sur le marché boursier et il y a donc lieu d'en discuter sous l'angle finance et des entreprises\"}"
     },
     {
         "role": "user",
-        "content": [
-            "Voici la demande : faut il investir sur NVIDIA"
-        ]
+        "content": "Voici la demande : parles moi de microsoft"
     },
     {
         "role": "assistant",
-        "content": "{\"decision\": \"OUI\", \"raison\": \"NVIDIA est une entreprise connue dans le secteur des technologies de l'information et des communications (TIC), offrant des solutions pour le traitement de l'intelligence artificielle, les jeux vidéo et la cryptomonnaie. L'investissement dans NVIDIA peut être considéré comme une option potentielle en matière d'investissement sur la bourse.\"}"
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Microsoft est une entreprise qui a des actions sur le marché boursier et il y a donc lieu d'en discuter sous l'angle finance et des entreprises\"}"
     },
     {
         "role": "user",
-        "content": [
-            "Voici la demande : Faut il investir sur NVIDIA"
-        ]
+        "content": "Voici la demande : parles moi de apple"
     },
     {
         "role": "assistant",
-        "content": "{\"decision\": \"OUI\", \"raison\": \"NVIDIA est une entreprise connue dans le secteur des technologies de l'information et des communications (TIC), offrant des solutions pour le traitement de l'intelligence artificielle, les jeux vidéo et la cryptomonnaie. L'investissement dans NVIDIA peut être considéré comme une option potentielle en matière d'investissement sur la bourse.\"}"
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur Apple implique l'analyse d'actions et donc est relevant de la finance et des entreprises\"}"
     },
     {
         "role": "user",
-        "content": [
-            "Voici la demande : Est ce que l'économie boursière se porte bien du cote de Microsoft"
-        ]
+        "content": "Voici la demande : parles moi de nvidia"
     },
     {
         "role": "assistant",
-        "content": "{\"decision\": \"OUI\", \"raison\": \"Microsoft est une entreprise connue et stable, offrant des perspectives d'investissements intéressantes dans le secteur de l'informatique et de la technologie.\"}"
+        "content": "{\"decision\": \"OUI\", \"raison\": \"NVIDIA est une entreprise qui a des actions sur le marché boursier et il y a donc lieu d'en discuter sous l'angle finance et des entreprises\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : parles moi de microsoft"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Microsoft est une entreprise qui a des actions sur le marché boursier et il y a donc lieu d'en discuter sous l'angle finance et des entreprises\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur apple ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Apple\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur microsoft"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Microsoft\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur l'entreprise APPLE ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Apple\", \"ticker\": \"AAPL\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois investir dans le SP500 ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"NON\", \"raison\": \"La demande concerne une question d'investissement en un index plutôt qu'en une entreprise, donc il n'y a pas de ticker boursier pour répondre à cette demande\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : est-ce que je dois investir sur MICROSOFT ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Microsoft\", \"ticker\": \"MSFT\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur TOTAL ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Total\", \"ticker\": \"TOT\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur hermes ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Hermès\", \"ticker\": \"HR.PA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur TOTAL ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Total\", \"ticker\": \"TOT\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur apple ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Apple\", \"ticker\": \"AAPL\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur nvidia? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur apple ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Apple\", \"ticker\": \"AAPL\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur UBISOFT"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Ubisoft\", \"ticker\": \"UBSFY\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur UBISOFT ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Ubisoft\", \"ticker\": \"UBSFY\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : doisje investir sur UBISOFT"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Ubisoft\", \"ticker\": \"UBSFY\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : doisje investir sur UBISOFT"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Ubisoft\", \"ticker\": \"UBSFY\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur VISA"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Visa\", \"ticker\": \"V\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur l'entreprise PUMA ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Puma\", \"ticker\": \"PUMDF\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : dois-je investir sur Intel ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Intel\", \"ticker\": \"INTC\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : analyses moi la société apple"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur Apple implique l'analyse d'actions et donc est relevant de la finance et des entreprises\", \"ticker\": \"AAPL\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : analyses moi nvidia"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : on vu de la baisse de nvidia d'aujourd'hui est-ce que ca serait pas le moment d'investir pour acheter pas cher ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises, il y a également mention de l'investissement dans NVIDIA\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : analyses moi nvidia"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : on vu de la baisse de nvidia d'aujourd'hui est-ce que ca serait pas le moment d'investir pour acheter pas cher ?"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises, il y a également mention de l'investissement dans NVIDIA\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : analyses nvidia"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : analyses nvidia pour du long terme"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises, ce serait donc pertinent pour un investissement à long terme\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : analyses la société APPLE"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur Apple implique l'analyse d'actions et donc est relevant de la finance et des entreprises\", \"ticker\": \"AAPL\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : Je veux investir sur apple "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur Apple implique l'analyse d'actions et donc est relevant de la finance et des entreprises\", \"ticker\": \"AAPL\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : je veux investir sur nvidia"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : je veux des informations sur nvidia"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : donnes moi des infos sur nvidia"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : donnes moi des infos sur nvidia"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : faut-il investir sur nvidia? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : faut-il investir sur NVIDIA ? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : faut-il investir sur nvidia?"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : faut-il investir sur la société nvidia? "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : faut-il investir sur nvidia"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : faut-il investir sur apple?"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Apple\", \"ticker\": \"AAPL\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : faut-il investir sur nvidia?"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : je veux investir sur NVIDIA analyses moi "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA. Il n'y a pas d'entreprise explicitée dans cette demande.\", \"ticker\": null}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : faut-il investir sur apple"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Apple. Il n'y a pas d'entreprise explicitée dans cette demande.\", \"ticker\": null}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : faut il investir sur nvdia"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA. Il n'y a pas d'entreprise explicitée dans cette demande.\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : faut il investir sur NVIDIA"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA. Il n'y a pas d'entreprise explicitée dans cette demande.\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : faut-il investir sur APPLE"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans Apple. Il n'y a pas d'entreprise explicitée dans cette demande.\", \"ticker\": null}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : donnes moi des informations sur NVIDIA"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA. Il n'y a pas d'entreprise explicitée dans cette demande.\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : donnes moi des renseignements uniquement sur la société NVIDIA"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"La demande concerne une question d'investissement et donc est relevant de l'analyse financière, il y a donc lieu de discuter de la possibilité d'investir dans NVIDIA. Il n'y a pas d'entreprise explicitée dans cette demande.\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : analyses moi la société NVIDIA"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises.\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : donnes moi uniquement des renseignements sur la société APPLE"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur Apple implique l'analyse d'actions et donc est relevant de la finance et des entreprises.\", \"ticker\": \"AAPL\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : donnes moi uniquement des renseignements sur la société APPLE"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur Apple implique l'analyse d'actions et donc est relevant de la finance et des entreprises.\", \"ticker\": \"AAPL\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : donnes moi des informations sur la société NVIDIA"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises.\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : Analyses moi la société NVIDIA"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises.\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : # Système Multi-Agents pour l'Analyse Financière"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"NON\", \"raison\": \"Discussion sur le système multi-agents implique les sciences informatiques et n'est pas relevant de la finance, l'économie, la bourse ou une entreprise.\", \"ticker\": null}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière.\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière.\", \"ticker\": null}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : "
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"NON\", \"raison\": \"Cette demande ne concerne pas explicitement de l'analyse financière, et donc n'a pas de ticker boursier officiel.\", \"ticker\": null}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : - [Dataset](#dataset)"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"NON\", \"raison\": \"Cette demande ne concerne pas explicitement de l'analyse financière, et donc n'a pas de ticker boursier officiel.\", \"ticker\": null}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : - [Problématique](#problématique)"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"NON\", \"raison\": \"Cette demande ne concerne pas explicitement de l'analyse financière, et donc n'a pas de ticker boursier officiel.\", \"ticker\": null}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : - [Solution Appliquée](#solution-appliquée)"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"NON\", \"raison\": \"Cette demande ne concerne pas explicitement de l'analyse financière, et donc n'a pas de ticker boursier officiel.\", \"ticker\": null}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : - [Architecture Multi-Agents](#architecture-multi-agents)"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"NON\", \"raison\": \"Cette demande ne concerne pas explicitement de l'analyse financière, et donc n'a pas de ticker boursier officiel.\", \"ticker\": null}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : - [Résultats](#résultats)"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Cette demande concerne une question d'investissement et donc est relevant de l'analyse financière.\", \"ticker\": null}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : Analyses moi la société NVIDIA"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises.\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : donnes moi uniquement des informations sur la société NVIDIA"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises.\", \"ticker\": \"NVDA\"}"
+    },
+    {
+        "role": "user",
+        "content": "Voici la demande : donnes moi des informations sur la société NVIDIA"
+    },
+    {
+        "role": "assistant",
+        "content": "{\"decision\": \"OUI\", \"raison\": \"Discussion sur NVIDIA implique l'analyse d'actions et donc est relevant de la finance et des entreprises.\", \"ticker\": \"NVDA\"}"
     }
 ]

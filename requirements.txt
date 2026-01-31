@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+
+yfinance
+pandas
+numpy
+
+duckduckgo-search
+
+python-dotenv
+requests
+
+# Pour la génération de PDF
+fpdf2

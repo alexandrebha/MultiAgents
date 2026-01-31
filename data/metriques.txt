@@ -1,0 +1,130 @@
+# RAPPORT DE MÉTRIQUES - SYSTÈME MULTI-AGENTS VS MONO-AGENT
+Date de génération: 2026-01-31 23:18
+
+================================================================================
+                           RÉSUMÉ DES PERFORMANCES
+================================================================================
+
+## 1. PERFORMANCE DU SYSTÈME
+
+### Multi-Agents
+- Nombre d'analyses réalisées: 5
+- Temps d'exécution moyen: 51.06s
+- Temps minimum: 28.08s
+- Temps maximum: 67.69s
+
+### Mono-Agent
+- Nombre d'analyses réalisées: 1
+- Temps d'exécution moyen: 29.84s
+- Temps minimum: 29.84s
+- Temps maximum: 29.84s
+
+### Temps par Agent (Multi-Agents)
+- Chercheur: 15.11s (moyenne)
+- Planificateur: 0.17s (moyenne)
+- Bull: 8.49s (moyenne)
+- Bear: 5.34s (moyenne)
+- Score: 15.08s (moyenne)
+- Redacteur: 10.96s (moyenne)
+- Critique: 13.24s (moyenne)
+- Controleur: 3.16s (moyenne)
+
+--------------------------------------------------------------------------------
+
+## 2. QUALITÉ DES ANALYSES
+
+### Multi-Agents
+- Précision extraction ticker: 100.0%
+- Score qualité moyen (Critique): 59.2/100
+- Taux de validation au premier passage: 60.0%
+- Nombre moyen d'itérations de correction: 1.6
+
+### Mono-Agent
+- Précision extraction ticker: 100.0%
+- Score qualité moyen: N/A (pas de Critique)
+
+--------------------------------------------------------------------------------
+
+## 3. RICHESSE ARGUMENTATIVE
+
+### Multi-Agents
+- Nombre moyen d'arguments Bull: 1.8
+- Nombre moyen d'arguments Bear: 1.6
+- Équilibre Bull/Bear: Équilibré
+
+### Mono-Agent
+- Nombre moyen d'arguments Bull: 4.0
+- Nombre moyen d'arguments Bear: 4.0
+- Équilibre Bull/Bear: Équilibré
+
+--------------------------------------------------------------------------------
+
+## 4. COMPARAISON MULTI-AGENT VS MONO-AGENT
+
+| Métrique                    | Multi-Agent | Mono-Agent | Différence |
+|-----------------------------|-------------|------------|------------|
+| Temps d'exécution moyen     | 51.06s       | 29.84s       | +21.22s      |
+| Précision ticker            | 100.0%      | 100.0%      | +0.0%     |
+| Arguments Bull (moy)        | 1.8        | 4.0        | -2.2       |
+| Arguments Bear (moy)        | 1.6        | 4.0        | -2.4       |
+| Total arguments             | 3.4        | 8.0        | -4.6       |
+
+### Analyse
+- Le système Multi-Agents est plus lent de 21.2s en moyenne.
+- Le système Mono-Agent produit 4.6 arguments de plus en moyenne.
+
+================================================================================
+                           HISTORIQUE DES ANALYSES
+================================================================================
+
+### Analyse #6
+- Date: 2026-01-31 23:17:49
+- Mode: mono-agent
+- Ticker: NVDA
+- Temps: 29.84s
+- Score: 0.0/100
+- Recommandation: ACHAT MODERE
+
+### Analyse #5
+- Date: 2026-01-31 23:15:27
+- Mode: multi-agent
+- Ticker: NVDA
+- Temps: 44.42s
+- Score: 54.3/100
+- Recommandation: INFO_SIMPLE
+
+### Analyse #4
+- Date: 2026-01-31 23:12:46
+- Mode: multi-agent
+- Ticker: NVDA
+- Temps: 48.21s
+- Score: 33.5/100
+- Recommandation: INFO_SIMPLE
+
+### Analyse #3
+- Date: 2026-01-31 23:08:23
+- Mode: multi-agent
+- Ticker: NVDA
+- Temps: 66.89s
+- Score: 80.7/100
+- Recommandation: ACHAT
+
+### Analyse #2
+- Date: 2026-01-31 23:03:06
+- Mode: multi-agent
+- Ticker: NVDA
+- Temps: 28.08s
+- Score: 50.2/100
+- Recommandation: INFO_SIMPLE
+
+### Analyse #1
+- Date: 2026-01-31 23:01:35
+- Mode: multi-agent
+- Ticker: NVDA
+- Temps: 67.69s
+- Score: 77.3/100
+- Recommandation: ACHAT
+
+================================================================================
+                                    FIN DU RAPPORT
+================================================================================
