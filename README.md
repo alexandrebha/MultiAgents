@@ -437,7 +437,9 @@ MultiAgents/
     ├── corrections.txt            # Feedback Critique
     └── metriques.txt              # Métriques d'exécution
 ```
+## COntraintes Effectuées
 
+L'image ContrainteEffectué.png montre les différents points que nous avons validés pour ce projet elle se trouve à la racine du projet dans le GitHub
 ---
 
 
@@ -450,42 +452,6 @@ MultiAgents/
 | mistral | ~4.1 GB | Agents de coordination |
 | mistral-nemo | ~5.2 GB | Agents d'analyse |
 
-### Dépendances externes
-
-- **Yahoo Finance API** : Gratuite, pas de clé API requise
-- **Ollama Server** : Doit être en cours d'exécution (port par défaut 11434)
-
-### Limites connues
-
-1. **Données Yahoo Finance** : Parfois incomplètes pour certains tickers
-2. **Tickers internationaux** : Nécessitent le suffixe (ex: MC.PA pour LVMH Paris)
-3. **Latence** : Dépend de la vitesse de votre machine (LLMs locaux)
-4. **Langue** : Optimisé pour le français, questions en anglais possibles mais rapport en français
-
-### Troubleshooting
-
-**Erreur : "Ollama server not running"**
-```bash
-# Démarrer Ollama
-ollama serve
-```
-
-**Erreur : "Model not found"**
-```bash
-# Re-télécharger les modèles
-ollama pull mistral
-ollama pull mistral-nemo
-```
-
-**Erreur : "Ticker invalide"**
-- Vérifier le ticker sur Yahoo Finance
-- Pour les actions européennes, ajouter le suffixe (.PA pour Paris, .L pour Londres, etc.)
-
-**Performances lentes**
-- Utiliser un GPU si disponible
-- Réduire le nombre d'itérations max du Critique (paramètre dans agent6_critique.py)
-- Passer au mode mono-agent pour des résultats rapides
-
 
 ### Lien Vidéos
 
@@ -493,6 +459,7 @@ ollama pull mistral-nemo
   https://www.youtube.com/watch?v=avi9Pp75ps0
 - Vidéo Démo : 
   https://youtu.be/R1Fsayh--yI
+
 
 
 
